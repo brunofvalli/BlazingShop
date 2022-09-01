@@ -38,3 +38,15 @@ And finally, you can run the app.
 Happy coding!
 
 Patrick
+
+# Create SQL Server in Docker
+
+```
+docker run -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=Red40Lake" -p 1433:1433 -d mcr.microsoft.com/mssql/server:2019-latest
+```
+
+Docker server is under
+
+```
+192.168.2.93
+```
